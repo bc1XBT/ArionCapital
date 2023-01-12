@@ -1,6 +1,8 @@
 html {
     height:100%;
     font-family: 'Montserrat', sans-serif;
+    overscroll-behavior: none;
+
 }
 
 a {
@@ -13,7 +15,12 @@ a:hover {
 }
 
 body {
-    background:url(../images/background.jpg);
+    background:url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
     background-size:cover;
     background-position: center center;
     background-attachment: fixed;
