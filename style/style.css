@@ -15,24 +15,12 @@ body {
     background:url(../images/background.jpg);
     font-weight: 400;
     font-size:14px;
-    width:100%;
-    height:100%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    border: 0px;
-    outline: 0px;
-    margin: 0px;
-    padding: 0px;
-    display:block;
     text-align: justify;
 }
 div.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
 }
 section.holder {
     display: table-cell;
