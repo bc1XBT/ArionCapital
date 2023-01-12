@@ -27,6 +27,13 @@ body {
     text-align: justify;
 }
 
+div.wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 div.box {
     background:rgba(255,255,255,0.97);
     max-width:650px;
@@ -35,10 +42,6 @@ div.box {
     box-sizing:border-box;
     padding:30px 50px;
     color:#03214b;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 div.logo {
