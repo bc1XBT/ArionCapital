@@ -13,6 +13,7 @@ a:hover {
 
 body {
     background:url(../images/background.jpg);
+    background-size: contain;
     font-weight: 400;
     font-size:14px;
     text-align: justify;
@@ -58,39 +59,4 @@ div.address {
     margin-top: 30px;
     padding-top: 30px;
     border-top: 2px solid #b0b0b0;
-}
-
-button.currentInvestor {
-    background-color: #FFF;
-    color: #3f4148;
-    border: 1px solid #B0B0B0;
-    height: 40px;
-    padding-left:14px;
-    padding-right:14px;
-    font-size:15px;
-    font-family: 'Open Sans', Arial, sans-serif;
-    cursor: pointer;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    -o-transition-timing-function: linear;
-    transition-timing-function: linear;
-
-}
-
-button.currentInvestor:hover {
-    background:#005a9c;
-    color:#FFF;
-}
-
-span.arrowWingding {
-    font-family:Wingdings;
-    font-size:16px;
 }
