@@ -25,9 +25,7 @@ body {
     text-align: justify;
 }
 div.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 section.holder {
     display: table-cell;
@@ -42,6 +40,9 @@ div.box {
     box-sizing:border-box;
     padding:30px 50px;
     color:#03214b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.logo {
