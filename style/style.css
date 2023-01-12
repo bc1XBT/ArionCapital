@@ -28,7 +28,7 @@ body {
     background-size:cover;
     background-position: center center;
     background-attachment: fixed;
-    position:relative;
+    position:fixed;
     font-weight: 400;
     font-size:14px;
     width:100%;
