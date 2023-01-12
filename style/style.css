@@ -3,7 +3,7 @@ html {
     width: 100%;
     height: 100%;
     overflow: auto scroll;
-    overscroll-behavior: none;
+    overscroll-behavior-y: none;
 }
 
 a {
