@@ -57,12 +57,16 @@ img.logo {
 
 footer {
   width: 100%;
-  padding: 5px 30px;
-  text-align: center;
-  box-sizing: border-box;
-  height: 70px;
-  position: relative;
+  padding: 5px 0px;
+  max-width: min(90vw, 650px);
   color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+
 }
 
 div.address {
