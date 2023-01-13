@@ -1,8 +1,8 @@
 html {
   font-family: "Montserrat", sans-serif;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  background-color: #03214b;
   overscroll-behavior: none;
 }
 
@@ -20,33 +20,34 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
   padding: 0px;
   margin: 0px;
   font-weight: 400;
   font-size: 14px;
   text-align: justify;
-}
-
-div.wrapper {
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+div.wrapper {
+  overflow-y: auto;
+  padding: 2rem;
+}
+
 div.box {
   background: rgba(255, 255, 255, 0.97);
   max-width: min(90vw, 650px);
-  max-height: 90vh;
+  /* max-height: 90vh; */
   vertical-align: middle;
   box-sizing: border-box;
   padding: 30px 50px;
   color: #03214b;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   display: flex;
   flex-direction: column;
 }
@@ -66,7 +67,6 @@ footer {
   align-items: center;
   gap: 2px;
   box-sizing: border-box;
-
 }
 
 div.address {
